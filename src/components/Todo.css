@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to right, #F2C649 0%, #cf556c 21%, #E77200 52%, #cf556c 78%, #F2C649 100%);
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.clear-btn, .Add-Book {
+    border: 2px outset #FBE7B2;
+    background: rgb(134, 0, 67);
+    font-size: large;
+    border-radius: 25%;
+    padding: 1%;
+    color: #FBE7B2;
+    margin: auto 20%;  
+}
+
+.Add-Book{
+  margin: auto 5%; 
+}
+
+.submit input{
+    font-size: 1.5em;
+    border: 5px outset #97021d;
+    border-radius: 5% 30%;
+}
+
+.item.read {
+    background: #42010d;
+    text-decoration: line-through;
+}
+
+.header h2{
+    margin: auto 25% 5% 25%;
+}
